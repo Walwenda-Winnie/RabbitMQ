@@ -1,0 +1,17 @@
+spring:
+   datasource:
+    platform: mysql
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/accountservice
+    username: root
+    password: 
+    SECRET_KEY: 
+   
+   Rabbit:
+      Host=172.17.0.1
+      Port=5672
+      Password=guest
+      Username=guest
+   spring:
+      main:
+        allow-bean-definition-overriding: true
